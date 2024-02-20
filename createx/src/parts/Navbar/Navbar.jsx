@@ -23,7 +23,7 @@ const Navbar = () =>
                         News
                     </a>
                     <a href="">
-                        Contact
+                        Contacts
                     </a>
                 </div>
             </div>
