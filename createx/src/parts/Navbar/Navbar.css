@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*
+{
+    font-family: "Ubuntu", bold;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #424551;
+    white-space: nowrap;
+}
+span
+{
+    font-family: "Ubuntu", regular;
+    font-weight: 400;
+    margin-top: 5px;
+}
 a{
     text-decoration: none;
-    color: #424551;
 }
 .navbar{
     display: flex;
     margin-left: 345px;
     margin-top: 20px;
+    width: 1230px;
 }
 .leftPart{
-    font-family: "Ubuntu", bold;
     font-weight: 700;
-    color: #424551;
     display:flex ;
     gap: 50px;
 }
@@ -22,9 +35,20 @@ a{
     align-items: center;
 }
 
-
-
 .rightPart{
     display: flex;
     margin-left: 150px;
+}
+
+.telephone{
+    display: flex;
+    width: 215px;
+    height: 52px;
+    align-items: center;
+    gap: 10px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
 }

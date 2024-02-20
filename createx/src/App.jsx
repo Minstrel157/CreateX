@@ -4,9 +4,12 @@ import Navbar from './parts/Navbar/Navbar'
 function App() {
 
   return (
-    <>
+    <div className="container">
       <Navbar />
-    </>
+      <div className="constructions">
+
+      </div>
+    </div>
   )
 }
 
