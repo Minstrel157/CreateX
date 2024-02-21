@@ -11,19 +11,19 @@ const Navbar = () =>
             <div className="leftPart">
                 <img src={logo} alt="kurwa" />
                 <div className="links">
-                    <a href="">
+                    <a href="#">
                         <p>About us</p>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>Services</p>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>Work</p>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>News</p>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>Contacts</p>
                     </a>
                 </div>

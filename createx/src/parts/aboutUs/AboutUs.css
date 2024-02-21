@@ -33,3 +33,30 @@
     font-weight: 400;
     font-size: 20px;
 }
+
+.learn_and_submit
+{
+    display: flex;
+    gap: 24px;
+    margin-left: 340px;
+    margin-top: 45px;
+    color: white;
+    font-size: 16px;
+    height: 52px;
+}
+
+.learn_more
+{
+    width: 278px;
+    border-color: white;
+    border:1px;
+    border-style: groove;
+    border-radius: 4px;
+}
+.submit_request
+{
+    padding: 10px;
+    background-color: #FF5A30;
+    width: 224px;
+    border-radius: 4px;
+}

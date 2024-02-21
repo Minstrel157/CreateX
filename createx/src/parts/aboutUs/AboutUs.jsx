@@ -11,6 +11,10 @@ const AboutUs = () =>
           </span>
           <span className='latinText'>Cras ultrices leo vitae non viverra. Fringilla nisi quisque<br></br> consequat, dignissim vitae proin ipsum sed. Pellentesque nec<br></br> turpis purus eget pellentesque integer ipsum elementum felis.</span>
         </div>
+        <div className="learn_and_submit">
+            <button className="learn_more">LEARN MORE ABOUT US</button>
+            <button className="submit_request">SUBMIT REQUEST</button>
+        </div>
     </div>
     )
 }
