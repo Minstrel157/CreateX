@@ -1,14 +1,12 @@
 import './App.css'
 import Navbar from './parts/Navbar/Navbar'
-
+import AboutUs from './parts/aboutUs/AboutUs'
 function App() {
 
   return (
     <div className="container">
       <Navbar />
-      <div className="constructions">
-
-      </div>
+      <AboutUs />
     </div>
   )
 }
