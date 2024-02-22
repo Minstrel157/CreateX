@@ -17,6 +17,10 @@ span
 a{
     text-decoration: none;
 }
+a:focus
+{
+    color: #FF5A30;
+}
 
 .navbar{
     display: flex;

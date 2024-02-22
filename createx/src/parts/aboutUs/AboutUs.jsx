@@ -39,6 +39,12 @@ const AboutUs = () =>
         <span>We are rightfully considered to be the best construction company in the USA.</span>
         <img src={video} alt="" />
       </div>
+      <div className="values">
+        <h1>
+          Our core values
+        </h1>
+        <span>We are rightfully considered to be the best construction company in the USA.</span>
+      </div>
     </div>
     )
 }

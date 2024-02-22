@@ -12,19 +12,19 @@ const Navbar = () =>
                 <img src={logo} alt="kurwa" />
                 <div className="links">
                     <a href="#">
-                        <p>About us</p>
+                        About us
                     </a>
                     <a href="#">
-                        <p>Services</p>
+                        Services
                     </a>
                     <a href="#">
-                        <p>Work</p>
+                        Work
                     </a>
                     <a href="#">
-                        <p>News</p>
+                        News
                     </a>
                     <a href="#">
-                        <p>Contacts</p>
+                        Contacts
                     </a>
                 </div>
             </div>
