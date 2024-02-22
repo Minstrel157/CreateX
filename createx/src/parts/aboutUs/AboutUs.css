@@ -60,3 +60,58 @@
     width: 224px;
     border-radius: 4px;
 }
+
+.pages
+{
+    display: flex;
+    gap: 12px;
+    margin-left: 340px;
+    margin-top: 200px;
+    height: 54px;
+    width: 724px;
+}
+
+.pages > a
+{
+    color: white;
+    min-height: 54px;
+    min-width: 178px;
+    border-bottom: 2px groove white;
+    opacity: 60%;
+}
+
+.pages > a:focus
+{
+    opacity: 100;
+}
+
+.video
+{
+    width: 1230px;
+    height: 671px;
+    margin-left: 345px;
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.video > h1
+{
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    
+}
+
+.video > span
+{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.video > img
+{
+    margin-top: 50px;
+}
