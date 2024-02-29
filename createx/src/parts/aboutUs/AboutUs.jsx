@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUs.css"
 import video from "../../images/aboutUs/video.svg"
+import group1 from "../../images/aboutUs/Group1.svg"
 const AboutUs = () =>
 {
     return(
@@ -43,8 +44,22 @@ const AboutUs = () =>
         <h1>
           Our core values
         </h1>
-        <span>We are rightfully considered to be the best construction company in the USA.</span>
+        <span>Our mission is to set the highest standards for construction sphere.</span>
+        <div className="advantages">
+        <div className="advantage">
+          <img src={group1} alt="" srcset="" />
+          <p>Quality</p>
+          <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+        </div>
+        <div className="advantage">
+
+        </div>
+        <div className="advantage">
+
+        </div>
       </div>
+      </div>
+      
     </div>
     )
 }
