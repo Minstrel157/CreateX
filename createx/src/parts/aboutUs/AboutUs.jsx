@@ -48,12 +48,15 @@ const AboutUs = () =>
         <div className="advantages">
         <div className="advantage">
           <img src={group1} alt="" srcset="" />
-          <p>Quality</p>
-          <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          <h2>Quality</h2>
+          <p>Culpa nostrud commodo ea consequat<br></br> aliquip reprehenderit. Veniam velit<br></br> nostrud aliquip sunt.</p>
+          <hr />
         </div>
+        
         <div className="advantage">
-
+        <hr />
         </div>
+        
         <div className="advantage">
 
         </div>
