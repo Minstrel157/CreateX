@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutUs.css"
 import video from "../../images/aboutUs/video.svg"
 import group1 from "../../images/aboutUs/Group1.svg"
+import safe from "../../images/aboutUs/ic-hand.svg"
+import group from "../../images/aboutUs/Group.svg"
 const AboutUs = () =>
 {
     return(
@@ -46,20 +48,23 @@ const AboutUs = () =>
         </h1>
         <span>Our mission is to set the highest standards for construction sphere.</span>
         <div className="advantages">
-        <div className="advantage">
-          <img src={group1} alt="" srcset="" />
-          <h2>Quality</h2>
-          <p>Culpa nostrud commodo ea consequat<br></br> aliquip reprehenderit. Veniam velit<br></br> nostrud aliquip sunt.</p>
-          <hr />
-        </div>
-        
-        <div className="advantage">
-        <hr />
-        </div>
-        
-        <div className="advantage">
-
-        </div>
+          <div className="advantage">
+            <img src={group1} alt="" srcset="" />
+            <h2>Quality</h2>
+            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>  
+          </div>
+          
+          <div className="advantage">
+          <img src={safe} alt="" srcset="" />
+            <h2>Safety</h2>
+            <p> Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
+          </div>
+          
+          <div className="advantage">
+          <img src={safe} alt="" srcset="" />
+            <h2>Comfort</h2>
+            <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
+          </div>
       </div>
       </div>
       

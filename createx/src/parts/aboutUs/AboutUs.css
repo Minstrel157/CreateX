@@ -133,7 +133,12 @@ h1
     font-size: 18px;
     margin-top: 20px;
 }
-
+.advantages
+{
+    display: flex;
+    margin-top: 40px;
+    gap: 170px;
+}
 .advantage
 {
     max-width: 285px;
@@ -142,11 +147,13 @@ h1
 
 .advantage > p
 {
+    width: 285px;
     padding-top: 15px;
     display: block;
     line-height: 26px;
     color: #787A80;
-
+    white-space: normal;
+    font-weight: 400;
 }
 
 .advantage > h2
@@ -159,12 +166,7 @@ h1
 .advantage > img
 {
     padding-bottom: 20px;
+    width: 48px;
+    height: 48px;
 }
 
-.advantage > hr
-{
-    border-top: 1px solid gray;
-    transform: rotate(90deg);
-    width: 188px;
-    margin: 0;
-}
