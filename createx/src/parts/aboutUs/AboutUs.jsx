@@ -7,6 +7,7 @@ import group from "../../images/aboutUs/Group.svg"
 const AboutUs = () =>
 {
     return(
+      // Части страницы разделены одной пустой строкой
     <div className="container">
       <div className="constructions">
           <div className="text">
@@ -35,6 +36,7 @@ const AboutUs = () =>
             </a>
           </div>
       </div>
+
       <div className="video">
         <h1>
           We are Createx Construction Bureau
@@ -42,33 +44,49 @@ const AboutUs = () =>
         <span>We are rightfully considered to be the best construction company in the USA.</span>
         <img src={video} alt="" />
       </div>
+
       <div className="values">
-        <h1>
-          Our core values
-        </h1>
-        <span>Our mission is to set the highest standards for construction sphere.</span>
-        <div className="advantages">
-          <div className="advantage">
-            <img src={group1} alt="" srcset="" />
-            <h2>Quality</h2>
-            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>  
-          </div>
-          
-          <div className="advantage">
-          <img src={safe} alt="" srcset="" />
-            <h2>Safety</h2>
-            <p> Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
-          </div>
-          
-          <div className="advantage">
-          <img src={group} alt="" srcset="" />
-            <h2>Comfort</h2>
-            <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
-          </div>
+          <h1>
+            Our core values
+          </h1>
+          <span>Our mission is to set the highest standards for construction sphere.</span>
+          <div className="advantages">
+            <div className="advantage">
+              <img src={group1} alt="" srcset="" />
+              <h2>Quality</h2>
+              <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>  
+            </div>
+            
+            <div className="advantage">
+            <img src={safe} alt="" srcset="" />
+              <h2>Safety</h2>
+              <p> Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
+            </div>
+            
+            <div className="advantage">
+            <img src={group} alt="" srcset="" />
+              <h2>Comfort</h2>
+              <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
+            </div>
+        </div>
       </div>
-      <div className="requestFrom">
-        
-      </div>
+
+      <div className="requestForm">
+        <h1>Want to know more? Ask us a question:</h1>
+        <form action="">
+          <div className="inputForm">
+            <p>Name</p>
+            <input type="text" placeholder="Your name" />
+          </div>
+          <div className="inputForm">
+            <p>Phone</p>
+            <input type="text" placeholder="Your phone" />
+          </div>
+          <div className="inputForm">
+            <p>Message</p>
+            <input type="text" placeholder="Your message" />
+          </div>
+        </form>
       </div>
       
     </div>
