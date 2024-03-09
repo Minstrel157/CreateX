@@ -61,10 +61,13 @@ const AboutUs = () =>
           </div>
           
           <div className="advantage">
-          <img src={safe} alt="" srcset="" />
+          <img src={group} alt="" srcset="" />
             <h2>Comfort</h2>
             <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
           </div>
+      </div>
+      <div className="requestFrom">
+        
       </div>
       </div>
       
