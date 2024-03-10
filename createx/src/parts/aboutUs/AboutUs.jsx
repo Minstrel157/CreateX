@@ -54,21 +54,27 @@ const AboutUs = () =>
           <span>Our mission is to set the highest standards for construction sphere.</span>
           <div className="advantages">
             <div className="advantage">
+
               <img src={group1} alt="" srcset="" />
               <h2>Quality</h2>
               <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>  
+
             </div>
             
             <div className="advantage">
-            <img src={safe} alt="" srcset="" />
+
+              <img src={safe} alt="" srcset="" />
               <h2>Safety</h2>
               <p> Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
+
             </div>
             
             <div className="advantage">
-            <img src={group} alt="" srcset="" />
+
+              <img src={group} alt="" srcset="" />
               <h2>Comfort</h2>
               <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
+
             </div>
         </div>
       </div>
@@ -76,22 +82,48 @@ const AboutUs = () =>
       <div className="requestForm">
         <h1>Want to know more? Ask us a question:</h1>
         <form action="">
+
           <div className="inputForm">
             <p>Name</p>
             <MyInput style = {{height: '44px', width: '260px'}} children="Your name" />
           </div>
+
           <div className="inputForm">
             <p>Phone</p>
             <MyInput style = {{height: '44px', width: '260px'}} children="Your phone" />
           </div>
+
           <div className="inputForm">
             <p>Message</p>
             <MyInput style = {{height: '44px', width: '414px'}} children="Your message" />
           </div>
-          
+
+          <MyOrangeButtom style={{height: "44px", width: "104px", marginLeft: "25px"}}>{"SEND"}</MyOrangeButtom>
+
         </form>
       </div>
       
+      <div className="ourServices">
+        <h1>Our services</h1>
+        <p>Createx Construction Bureau is a construction giant with a full range of construction services.</p>
+        <div className="serviceCards">
+          <div className="card">
+            
+          </div>
+
+          <div className="card">
+
+          </div>
+
+          <div className="card">
+
+          </div>
+
+          <div className="card">
+
+          </div>
+        </div>
+      </div>
     </div>
     )
 }

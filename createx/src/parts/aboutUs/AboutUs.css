@@ -177,6 +177,14 @@ h1
     align-items: center;
     width: 1230px;
     height: 243px;
+    padding-top: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.requestForm > h1
+{
+    font-size: 28px;
 }
 
 .inputForm
@@ -185,6 +193,27 @@ h1
     margin-left: 25px;
     font-weight: 400;
     color: #424551;
+}
+
+.ourServices
+{
+    height: 880px;
+    width: 1920px;
+    background-image: url("../src/images/aboutUs/background2.svg");
+    margin-top: -110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourServices > p
+{
+    font-weight: 400;
+    color: #787A80;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
 }
 
 
