@@ -1,0 +1,12 @@
+.myInput
+{
+    border: 1px groove #D7DADD;
+    background-color: #F4F5F6;
+    color: #F4F5F6;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    padding-left: 14px;
+    border-radius: 4px;
+    margin-top: 8px;
+}

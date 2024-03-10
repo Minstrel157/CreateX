@@ -4,6 +4,8 @@ import video from "../../images/aboutUs/video.svg"
 import group1 from "../../images/aboutUs/Group1.svg"
 import safe from "../../images/aboutUs/ic-hand.svg"
 import group from "../../images/aboutUs/Group.svg"
+import MyInput from "../../modules/MyInput/MyInput";
+import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
 const AboutUs = () =>
 {
     return(
@@ -19,7 +21,7 @@ const AboutUs = () =>
           </div>
           <div className="learn_and_submit">
               <button className="learn_more">LEARN MORE ABOUT US</button>
-              <button className="submit_request">SUBMIT REQUEST</button>
+              <MyOrangeButtom style={{height: "52px", width: "224px"}}>{"SUBMIT REQUEST"}</MyOrangeButtom>
           </div>
           <div className="pages">
             <a href="#">
@@ -76,16 +78,17 @@ const AboutUs = () =>
         <form action="">
           <div className="inputForm">
             <p>Name</p>
-            <input type="text" placeholder="Your name" />
+            <MyInput style = {{height: '44px', width: '260px'}} children="Your name" />
           </div>
           <div className="inputForm">
             <p>Phone</p>
-            <input type="text" placeholder="Your phone" />
+            <MyInput style = {{height: '44px', width: '260px'}} children="Your phone" />
           </div>
           <div className="inputForm">
             <p>Message</p>
-            <input type="text" placeholder="Your message" />
+            <MyInput style = {{height: '44px', width: '414px'}} children="Your message" />
           </div>
+          
         </form>
       </div>
       

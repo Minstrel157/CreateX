@@ -62,13 +62,6 @@
     border-style: groove;
     border-radius: 4px;
 }
-.submit_request
-{
-    padding: 10px;
-    background-color: #FF5A30;
-    width: 224px;
-    border-radius: 4px;
-}
 
 .pages
 {
@@ -190,20 +183,9 @@ h1
 {
     display: inline-block;
     margin-left: 25px;
+    font-weight: 400;
+    color: #424551;
 }
 
-.inputForm > input
-{
-    border: 1px groove #D7DADD;
-    background-color: #F4F5F6;
-    color: #F4F5F6;
-    font-weight: 400;
-    line-height: 21px;
-    font-size: 14px;
-    padding-left: 14px;
-    border-radius: 4px;
-    height: 44px;
-    margin-top: 8px;
-    width: 260px;
-}
+
 
