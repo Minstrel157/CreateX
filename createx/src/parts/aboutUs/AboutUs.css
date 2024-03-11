@@ -207,6 +207,18 @@ h1
     justify-content: center;
 }
 
+.ending > h2
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: #1E212C;
+}
+.ending
+{
+    display: flex;
+    
+}
+
 .ourServices > p
 {
     font-weight: 400;
@@ -216,5 +228,42 @@ h1
     margin-top: 20px;
 }
 
+.serviceCard
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 65px;
+}
 
+.card
+{
+    width: 285px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1E212C;
+    gap: 20px;
+}
 
+.card, .card_back > h2
+{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card_back
+{
+    background-image: url("../../images/aboutUs/image.svg");
+    width: 285px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}

@@ -24,7 +24,6 @@ a:focus
 
 .navbar{
     display: flex;
-    margin-left: 345px;
     margin-top: 20px;
     width: 1230px;
 }

@@ -6,6 +6,10 @@ import safe from "../../images/aboutUs/ic-hand.svg"
 import group from "../../images/aboutUs/Group.svg"
 import MyInput from "../../modules/MyInput/MyInput";
 import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
+import icCon from "../../images/aboutUs/ic-construction.svg"
+import vector0 from "../../images/aboutUs/Vector0.svg"
+import vector1 from "../../images/aboutUs/Vector1.svg"
+import vector2 from "../../images/aboutUs/Vector.svg"
 const AboutUs = () =>
 {
     return(
@@ -106,23 +110,32 @@ const AboutUs = () =>
       <div className="ourServices">
         <h1>Our services</h1>
         <p>Createx Construction Bureau is a construction giant with a full range of construction services.</p>
-        <div className="serviceCards">
+        <div className="serviceCard">
           <div className="card">
-            
+            <img src={icCon} alt="" />
+            <h2>Construction</h2>
           </div>
 
           <div className="card">
+            <img src={vector0} alt="" />
+            <h2>Project Development</h2>
+          </div>
 
+          <div className="card_back">
+            <img src={vector1} alt="" />
+            <h2>Interior Design</h2>
           </div>
 
           <div className="card">
-
-          </div>
-
-          <div className="card">
-
+            <img src={vector2} alt="" />
+            <h2>Repairs</h2>
           </div>
         </div>
+        <div className="ending">
+          <h2>Learn more about our services</h2>
+          <MyOrangeButtom style={{height: "52px", width: "207px", marginLeft: "25px"}}>{"VIEW SERVICES"}</MyOrangeButtom>
+        </div>
+
       </div>
     </div>
     )
