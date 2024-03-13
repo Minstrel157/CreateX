@@ -10,6 +10,9 @@ import icCon from "../../images/aboutUs/ic-construction.svg"
 import vector0 from "../../images/aboutUs/Vector0.svg"
 import vector1 from "../../images/aboutUs/Vector1.svg"
 import vector2 from "../../images/aboutUs/Vector.svg"
+import building1 from "../../images/aboutUs/building1.svg"
+import building2 from "../../images/aboutUs/building2.svg"
+import building3 from "../../images/aboutUs/building3.svg"
 const AboutUs = () =>
 {
     return(
@@ -136,6 +139,27 @@ const AboutUs = () =>
           <MyOrangeButtom style={{height: "52px", width: "207px", marginLeft: "25px"}}>{"VIEW SERVICES"}</MyOrangeButtom>
         </div>
 
+      </div>
+
+      <div className="browse_our_selected">
+        <h1>Browse our selected projects and learn more about our work</h1>
+        <div className="buildings">
+          <div className="building">
+            <img src={building1} alt="" />
+            <h2>Red Finger Building</h2>
+            <p>Business Centers</p>
+          </div>
+          <div className="building">
+            <img src={building2} alt="" />
+            <h2>Cubes Building</h2>
+            <p>Business Centers</p>
+          </div>
+          <div className="building">
+            <img src={building3} alt="" />
+            <h2>Red Finger Building</h2>
+            <p>Stores & Malls</p>
+          </div>
+        </div>
       </div>
     </div>
     )
