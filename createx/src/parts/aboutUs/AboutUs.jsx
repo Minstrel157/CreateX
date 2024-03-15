@@ -153,6 +153,7 @@ const AboutUs = () =>
             <img src={building2} alt="" />
             <h2>Cubes Building</h2>
             <p>Business Centers</p>
+            <button>View Project</button>
           </div>
           <div className="building">
             <img src={building3} alt="" />
@@ -160,7 +161,12 @@ const AboutUs = () =>
             <p>Stores & Malls</p>
           </div>
         </div>
+        <div className="browse_our_selected_final">
+          <h2>Explore all our works</h2>
+          <MyOrangeButtom style={{height: "52px", width: "224px", fontSize: "16px", fontWeight: "700" }}>{"View portfolio"}</MyOrangeButtom>
+        </div>
       </div>
+      
     </div>
     )
 }
