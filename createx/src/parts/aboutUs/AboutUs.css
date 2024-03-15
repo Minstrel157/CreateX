@@ -322,7 +322,7 @@ h1
     display: flex; 
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-top: 50px;
     font-size: 28px;
     line-height: 42px;
@@ -332,3 +332,57 @@ h1
 {
     color: #1E212C;
 }
+
+.supportedBy
+{
+    background-color: #F4F5F6;
+    width: 1920px;
+    height: 994px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supportedLogo
+{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.supportedLogo > img
+{
+    width: 120px;
+    height: 60px;
+}
+
+.clientProfile
+{
+    width: 1230px;
+}
+
+.testimonials-carousel
+{
+    width: 600px;
+    height: 249px;
+}
+
+.testimonials-carousel > p
+{
+    white-space: normal;
+    font-weight: 400;
+    color: #424551;
+}
+
+.clientName
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+}
+
+.nameAndPosition > p
+{
+    color: #787A80;
+    font-weight: 400;
+}
+

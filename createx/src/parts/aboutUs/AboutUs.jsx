@@ -13,6 +13,13 @@ import vector2 from "../../images/aboutUs/Vector.svg"
 import building1 from "../../images/aboutUs/building1.svg"
 import building2 from "../../images/aboutUs/building2.svg"
 import building3 from "../../images/aboutUs/building3.svg"
+import clientLogo1 from "../../images/aboutUs/client-logo.svg"
+import clientLogo2 from "../../images/aboutUs/client-logo1.svg"
+import clientLogo3 from "../../images/aboutUs/client-logo2.svg"
+import clientLogo4 from "../../images/aboutUs/client-logo3.svg"
+import clientLogo5 from "../../images/aboutUs/client-logo4.svg"
+import clientLogo6 from "../../images/aboutUs/client-logo5.svg"
+import profileImg from "../../images/aboutUs/profile-image.svg"
 const AboutUs = () =>
 {
     return(
@@ -164,6 +171,30 @@ const AboutUs = () =>
         <div className="browse_our_selected_final">
           <h2>Explore all our works</h2>
           <MyOrangeButtom style={{height: "52px", width: "224px", fontSize: "16px", fontWeight: "700" }}>{"View portfolio"}</MyOrangeButtom>
+        </div>
+      </div>
+
+      <div className="supportedBy">
+        <h1>Supported by 12+ partners</h1>
+        <div className="supportedLogo">
+          <img src={clientLogo1} alt="" />
+          <img src={clientLogo2} alt="" />
+          <img src={clientLogo3} alt="" />
+          <img src={clientLogo4} alt="" />
+          <img src={clientLogo5} alt="" />
+          <img src={clientLogo6} alt="" />
+        </div>
+        <div className="clientProfile">
+          <h1>What our clients are saying</h1>
+          <div className="testimonials-carousel">
+            <img src={profileImg} alt="" />
+            <p>Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.</p>
+            <div className="nameAndPosition">
+              <span className="clientName">Shawn Edwards</span>
+              <p>Position, Company name</p>
+            </div>
+          </div>
+
         </div>
       </div>
       
