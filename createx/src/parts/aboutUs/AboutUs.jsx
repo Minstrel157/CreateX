@@ -20,8 +20,11 @@ import clientLogo4 from "../../images/aboutUs/client-logo3.svg"
 import clientLogo5 from "../../images/aboutUs/client-logo4.svg"
 import clientLogo6 from "../../images/aboutUs/client-logo5.svg"
 import profileImg from "../../images/aboutUs/profile-image.svg"
+import leftButton from "../../images/aboutUs/prev-btn.svg"
+import rightButton from  "../../images/aboutUs/hover.svg"
 const AboutUs = () =>
 {
+  
     return(
       // Части страницы разделены одной пустой строкой
     <div className="container">
@@ -189,9 +192,14 @@ const AboutUs = () =>
           <div className="testimonials-carousel">
             <img src={profileImg} alt="" />
             <p>Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.</p>
-            <div className="nameAndPosition">
-              <span className="clientName">Shawn Edwards</span>
-              <p>Position, Company name</p>
+            <div className="changeDescriptions">
+              <div className="nameAndPosition">
+                <span className="clientName">Shawn Edwards</span>
+                <p>Position, Company name</p>
+              </div>
+              <div className="descriptionButtons">
+                <button><img src={leftButton} alt="" /></button>
+              </div>
             </div>
           </div>
 

@@ -386,3 +386,10 @@ h1
     font-weight: 400;
 }
 
+.changeDescriptions
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
