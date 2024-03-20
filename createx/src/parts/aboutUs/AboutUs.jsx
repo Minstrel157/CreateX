@@ -199,6 +199,7 @@ const AboutUs = () =>
               </div>
               <div className="descriptionButtons">
                 <button><img src={leftButton} alt="" /></button>
+                <button><img src={rightButton} alt="" srcset="" /></button>
               </div>
             </div>
           </div>

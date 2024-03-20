@@ -393,3 +393,10 @@ h1
     align-items: center;
 }
 
+.descriptionButtons
+{
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
