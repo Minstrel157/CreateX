@@ -1,27 +1,8 @@
 import React from "react";
 import "./AboutUs.css"
-import video from "../../images/aboutUs/video.svg"
-import group1 from "../../images/aboutUs/Group1.svg"
-import safe from "../../images/aboutUs/ic-hand.svg"
-import group from "../../images/aboutUs/Group.svg"
 import MyInput from "../../modules/MyInput/MyInput";
 import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
-import icCon from "../../images/aboutUs/ic-construction.svg"
-import vector0 from "../../images/aboutUs/Vector0.svg"
-import vector1 from "../../images/aboutUs/Vector1.svg"
-import vector2 from "../../images/aboutUs/Vector.svg"
-import building1 from "../../images/aboutUs/building1.svg"
-import building2 from "../../images/aboutUs/building2.svg"
-import building3 from "../../images/aboutUs/building3.svg"
-import clientLogo1 from "../../images/aboutUs/client-logo.svg"
-import clientLogo2 from "../../images/aboutUs/client-logo1.svg"
-import clientLogo3 from "../../images/aboutUs/client-logo2.svg"
-import clientLogo4 from "../../images/aboutUs/client-logo3.svg"
-import clientLogo5 from "../../images/aboutUs/client-logo4.svg"
-import clientLogo6 from "../../images/aboutUs/client-logo5.svg"
-import profileImg from "../../images/aboutUs/profile-image.svg"
-import leftButton from "../../images/aboutUs/prev-btn.svg"
-import rightButton from  "../../images/aboutUs/hover.svg"
+import images from "../../images/importImages";
 const AboutUs = () =>
 {
   
@@ -61,7 +42,7 @@ const AboutUs = () =>
           We are Createx Construction Bureau
         </h1>
         <span>We are rightfully considered to be the best construction company in the USA.</span>
-        <img src={video} alt="" />
+        <img src={images.video} alt="" />
       </div>
 
       <div className="values">
@@ -72,7 +53,7 @@ const AboutUs = () =>
           <div className="advantages">
             <div className="advantage">
 
-              <img src={group1} alt="" srcset="" />
+              <img src={images.group1} alt="" srcset="" />
               <h2>Quality</h2>
               <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>  
 
@@ -80,7 +61,7 @@ const AboutUs = () =>
             
             <div className="advantage">
 
-              <img src={safe} alt="" srcset="" />
+              <img src={images.safe} alt="" srcset="" />
               <h2>Safety</h2>
               <p> Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
 
@@ -88,7 +69,7 @@ const AboutUs = () =>
             
             <div className="advantage">
 
-              <img src={group} alt="" srcset="" />
+              <img src={images.group} alt="" srcset="" />
               <h2>Comfort</h2>
               <p> Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
 
@@ -125,22 +106,22 @@ const AboutUs = () =>
         <p>Createx Construction Bureau is a construction giant with a full range of construction services.</p>
         <div className="serviceCard">
           <div className="card">
-            <img src={icCon} alt="" />
+            <img src={images.icCon} alt="" />
             <h2>Construction</h2>
           </div>
 
           <div className="card">
-            <img src={vector0} alt="" />
+            <img src={images.vector0} alt="" />
             <h2>Project Development</h2>
           </div>
 
           <div className="card_back">
-            <img src={vector1} alt="" />
+            <img src={images.vector1} alt="" />
             <h2>Interior Design</h2>
           </div>
 
           <div className="card">
-            <img src={vector2} alt="" />
+            <img src={images.vector2} alt="" />
             <h2>Repairs</h2>
           </div>
         </div>
@@ -155,18 +136,18 @@ const AboutUs = () =>
         <h1>Browse our selected projects and learn more about our work</h1>
         <div className="buildings">
           <div className="building">
-            <img src={building1} alt="" />
+            <img src={images.building1} alt="" />
             <h2>Red Finger Building</h2>
             <p>Business Centers</p>
           </div>
           <div className="building">
-            <img src={building2} alt="" />
+            <img src={images.building2} alt="" />
             <h2>Cubes Building</h2>
             <p>Business Centers</p>
             <button>View Project</button>
           </div>
           <div className="building">
-            <img src={building3} alt="" />
+            <img src={images.building3} alt="" />
             <h2>Red Finger Building</h2>
             <p>Stores & Malls</p>
           </div>
@@ -179,18 +160,18 @@ const AboutUs = () =>
 
       <div className="supportedBy">
         <h1>Supported by 12+ partners</h1>
-        <div className="supportedLogo">
-          <img src={clientLogo1} alt="" />
-          <img src={clientLogo2} alt="" />
-          <img src={clientLogo3} alt="" />
-          <img src={clientLogo4} alt="" />
-          <img src={clientLogo5} alt="" />
-          <img src={clientLogo6} alt="" />
+        <div className="supportedLogo">s
+          <img src={images.clientLogo1} alt="" />
+          <img src={images.clientLogo2} alt="" />
+          <img src={images.clientLogo3} alt="" />
+          <img src={images.clientLogo4} alt="" />
+          <img src={images.clientLogo5} alt="" />
+          <img src={images.clientLogo6} alt="" />
         </div>
         <div className="clientProfile">
           <h1>What our clients are saying</h1>
           <div className="testimonials-carousel">
-            <img src={profileImg} alt="" />
+            <img src={images.profileImg} alt="" />
             <p>Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.</p>
             <div className="changeDescriptions">
               <div className="nameAndPosition">
@@ -198,8 +179,8 @@ const AboutUs = () =>
                 <p>Position, Company name</p>
               </div>
               <div className="descriptionButtons">
-                <button><img src={leftButton} alt="" /></button>
-                <button><img src={rightButton} alt="" srcset="" /></button>
+                <button><img src={images.leftButton} alt="" /></button>
+                <button><img src={images.rightButton} alt="" srcset="" /></button>
               </div>
             </div>
           </div>
