@@ -5,13 +5,23 @@ import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
 import images from "../../images/importImages";
 const AboutUs = () =>
 {
-    const [text, setText] = useState()
     let clients = [
       ["Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.", "Shawn Edwards", "SEO, Nestle"],
       ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed euismod tellus eu erat posuere. Sed interdum gravida ligula. Vivamus gravida consectetur sagittis.", "Hannah Smith", "Programmer, Yandex"],
       ["Vivamus sed velit id libero luctus blandit. Maecenas in fermentum dolor. Suspendisse potenti. Integer cursus, dui id pulvinar aliquet, sem lorem tempus nunc, a lacinia nibh nulla nec justo.", "James Johnson", "Designer, Military forses of Poland"],
       ["Sed volutpat ornare quam, nec fermentum nulla. Sed feugiat nunc eget felis suscipit congue. Vivamus ullamcorper velit vel lacus laoreet, nec viverra ligula facilisis.", "Olivia Williams", "Maneger, Pyaterochka"]
     ]
+
+    const changeClients = () =>
+    {
+      let firstArrow = clients.shift()
+      clients.push(firstArrow)
+    }
+
+    const returnClients = () =>
+    {
+
+    }
   
     return(
       // Части страницы разделены одной пустой строкой
@@ -187,7 +197,7 @@ const AboutUs = () =>
               </div>
               <div className="descriptionButtons">
                 <button><img src={images.leftButton} alt="" /></button>
-                <button><img src={images.rightButton} alt="" srcset="" /></button>
+                <button><img src={images.rightButton} alt="" srcset="" onClick={changeClients()} /></button>
               </div>
             </div>
           </div>
