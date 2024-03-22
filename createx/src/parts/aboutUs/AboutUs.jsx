@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AboutUs.css"
 import MyInput from "../../modules/MyInput/MyInput";
 import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
 import images from "../../images/importImages";
 const AboutUs = () =>
 {
+    const [text, setText] = useState()
+    let clients = [
+      ["Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.", "Shawn Edwards", "SEO, Nestle"],
+      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed euismod tellus eu erat posuere. Sed interdum gravida ligula. Vivamus gravida consectetur sagittis.", "Hannah Smith", "Programmer, Yandex"],
+      ["Vivamus sed velit id libero luctus blandit. Maecenas in fermentum dolor. Suspendisse potenti. Integer cursus, dui id pulvinar aliquet, sem lorem tempus nunc, a lacinia nibh nulla nec justo.", "James Johnson", "Designer, Military forses of Poland"],
+      ["Sed volutpat ornare quam, nec fermentum nulla. Sed feugiat nunc eget felis suscipit congue. Vivamus ullamcorper velit vel lacus laoreet, nec viverra ligula facilisis.", "Olivia Williams", "Maneger, Pyaterochka"]
+    ]
   
     return(
       // Части страницы разделены одной пустой строкой
@@ -172,7 +179,7 @@ const AboutUs = () =>
           <h1>What our clients are saying</h1>
           <div className="testimonials-carousel">
             <img src={images.profileImg} alt="" />
-            <p>Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident exercitation ullamco.</p>
+            <p>{clients[0][0]}</p>
             <div className="changeDescriptions">
               <div className="nameAndPosition">
                 <span className="clientName">Shawn Edwards</span>
