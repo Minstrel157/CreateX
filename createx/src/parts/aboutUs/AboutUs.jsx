@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./AboutUs.css"
 import MyInput from "../../modules/MyInput/MyInput";
 import MyOrangeButtom from "../../modules/MyOrangeButtom/MyOrangeButtom";
@@ -11,18 +11,23 @@ const AboutUs = () =>
       ["Vivamus sed velit id libero luctus blandit. Maecenas in fermentum dolor. Suspendisse potenti. Integer cursus, dui id pulvinar aliquet, sem lorem tempus nunc, a lacinia nibh nulla nec justo.", "James Johnson", "Designer, Military forses of Poland"],
       ["Sed volutpat ornare quam, nec fermentum nulla. Sed feugiat nunc eget felis suscipit congue. Vivamus ullamcorper velit vel lacus laoreet, nec viverra ligula facilisis.", "Olivia Williams", "Maneger, Pyaterochka"]
     ]
-
-    const changeClients = () =>
+    const[client, setClient] = useState(0)
+    const nextClients = () =>
     {
-      let firstArrow = clients.shift()
-      clients.push(firstArrow)
+      if(client+1 === clients.length)
+        {
+          setClient(client=>client=0)
+        }
+      else{setClient(client+1)}
     }
-
     const returnClients = () =>
     {
-
+      if(client-1 === -1)
+      {
+        setClient(client=>client=clients.length-1)
+      }
+      else{setClient(client-1)}
     }
-  
     return(
       // Части страницы разделены одной пустой строкой
     <div className="container">
@@ -189,15 +194,15 @@ const AboutUs = () =>
           <h1>What our clients are saying</h1>
           <div className="testimonials-carousel">
             <img src={images.profileImg} alt="" />
-            <p>{clients[0][0]}</p>
+            <p>{clients[client][0]}</p>
             <div className="changeDescriptions">
               <div className="nameAndPosition">
-                <span className="clientName">Shawn Edwards</span>
-                <p>Position, Company name</p>
+                <span className="clientName">{clients[client][1]}</span>
+                <p>{clients[client][2]}</p>
               </div>
               <div className="descriptionButtons">
-                <button><img src={images.leftButton} alt="" /></button>
-                <button><img src={images.rightButton} alt="" srcset="" onClick={changeClients()} /></button>
+                <button><img src={images.leftButton} alt="" onClick={returnClients} /></button>
+                <button><img src={images.rightButton} alt="" srcset="" onClick={nextClients} /></button>
               </div>
             </div>
           </div>
