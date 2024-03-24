@@ -32,6 +32,7 @@ const AboutUs = () =>
       // Части страницы разделены одной пустой строкой
     <div className="container">
       <div className="constructions">
+
           <div className="text">
             <span className="companyName">CREATE
               <span className='x'>X</span> 
@@ -39,24 +40,19 @@ const AboutUs = () =>
             </span>
             <span className='latinText'>Cras ultrices leo vitae non viverra. Fringilla nisi quisque<br></br> consequat, dignissim vitae proin ipsum sed. Pellentesque nec<br></br> turpis purus eget pellentesque integer ipsum elementum felis.</span>
           </div>
+
           <div className="learn_and_submit">
               <button className="learn_more">LEARN MORE ABOUT US</button>
               <MyOrangeButtom style={{height: "52px", width: "224px"}}>{"SUBMIT REQUEST"}</MyOrangeButtom>
           </div>
+
           <div className="pages">
-            <a href="#">
-              01
-            </a>
-            <a href="#">
-              02
-            </a>
-            <a href="#">
-              03
-            </a>
-            <a href="#">
-              04
-            </a>
+            <a href="#">01</a>
+            <a href="#">02</a>
+            <a href="#">03</a>
+            <a href="#">04</a>
           </div>
+
       </div>
 
       <div className="video">
@@ -100,6 +96,7 @@ const AboutUs = () =>
       </div>
 
       <div className="requestForm">
+
         <h1>Want to know more? Ask us a question:</h1>
         <form action="">
 
@@ -124,8 +121,10 @@ const AboutUs = () =>
       </div>
       
       <div className="ourServices">
+
         <h1>Our services</h1>
         <p>Createx Construction Bureau is a construction giant with a full range of construction services.</p>
+
         <div className="serviceCard">
           <div className="card">
             <img src={images.icCon} alt="" />
@@ -146,7 +145,9 @@ const AboutUs = () =>
             <img src={images.vector2} alt="" />
             <h2>Repairs</h2>
           </div>
+
         </div>
+
         <div className="ending">
           <h2>Learn more about our services</h2>
           <MyOrangeButtom style={{height: "52px", width: "207px", marginLeft: "25px"}}>{"VIEW SERVICES"}</MyOrangeButtom>
@@ -155,25 +156,32 @@ const AboutUs = () =>
       </div>
 
       <div className="browse_our_selected">
+
         <h1>Browse our selected projects and learn more about our work</h1>
+
         <div className="buildings">
+
           <div className="building">
             <img src={images.building1} alt="" />
             <h2>Red Finger Building</h2>
             <p>Business Centers</p>
           </div>
+
           <div className="building">
             <img src={images.building2} alt="" />
             <h2>Cubes Building</h2>
             <p>Business Centers</p>
             <button>View Project</button>
           </div>
+
           <div className="building">
             <img src={images.building3} alt="" />
             <h2>Red Finger Building</h2>
             <p>Stores & Malls</p>
           </div>
+
         </div>
+
         <div className="browse_our_selected_final">
           <h2>Explore all our works</h2>
           <MyOrangeButtom style={{height: "52px", width: "224px", fontSize: "16px", fontWeight: "700" }}>{"View portfolio"}</MyOrangeButtom>
@@ -181,8 +189,10 @@ const AboutUs = () =>
       </div>
 
       <div className="supportedBy">
+
         <h1>Supported by 12+ partners</h1>
-        <div className="supportedLogo">s
+
+        <div className="supportedLogo">
           <img src={images.clientLogo1} alt="" />
           <img src={images.clientLogo2} alt="" />
           <img src={images.clientLogo3} alt="" />
@@ -190,24 +200,61 @@ const AboutUs = () =>
           <img src={images.clientLogo5} alt="" />
           <img src={images.clientLogo6} alt="" />
         </div>
+
         <div className="clientProfile">
+
           <h1>What our clients are saying</h1>
+
           <div className="testimonials-carousel">
+
             <img src={images.profileImg} alt="" />
             <p>{clients[client][0]}</p>
+
             <div className="changeDescriptions">
+
               <div className="nameAndPosition">
                 <span className="clientName">{clients[client][1]}</span>
                 <p>{clients[client][2]}</p>
               </div>
+
               <div className="descriptionButtons">
                 <button><img src={images.leftButton} alt="" onClick={returnClients} /></button>
                 <button><img src={images.rightButton} alt="" srcset="" onClick={nextClients} /></button>
               </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="someFacts">
+        <img src={images.transparent} alt="" />
+
+        <div className="someFacts_andFigures">
+          <h1>Some facts and figures</h1>
+          <div className="figureAndText">
+            <div className="figure__red">
+
             </div>
           </div>
 
+          <div className="figureAndText">
+            <div className="figure">
+
+            </div>
+          </div>
+          <div className="figureAndText">
+            <div className="figure">
+
+            </div>
+          </div>
+          <div className="figureAndText">
+            <div className="figure">
+
+            </div>
+          </div>
         </div>
+
       </div>
       
     </div>
