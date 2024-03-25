@@ -233,24 +233,24 @@ const AboutUs = () =>
         <div className="someFacts_andFigures">
           <h1>Some facts and figures</h1>
           <div className="figureAndText">
-            <div className="figure__red">
+            <div className="figure__orange">
 
             </div>
           </div>
 
           <div className="figureAndText">
-            <div className="figure">
+            <div className="figure__pink">
 
             </div>
           </div>
           <div className="figureAndText">
-            <div className="figure">
+            <div className="figure__blue">
 
             </div>
           </div>
           <div className="figureAndText">
-            <div className="figure">
-
+            <div className="figure__green">
+              
             </div>
           </div>
         </div>
