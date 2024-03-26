@@ -431,12 +431,14 @@ h1
 {
     width: 148px;
     height: 189px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.figure__green, .figure__orange, .figure__blue, .figure__pink
+.someFacts_andFigures_withoutH1
 {
-    width: 148px;
-    aspect-ratio: 1/1;
-    border: 6px solid red;
-    border-radius: 50%;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
 }

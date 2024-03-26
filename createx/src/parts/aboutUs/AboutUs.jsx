@@ -229,32 +229,25 @@ const AboutUs = () =>
 
       <div className="someFacts">
         <img src={images.transparent} alt="" />
-
-        <div className="someFacts_andFigures">
           <h1>Some facts and figures</h1>
-          <div className="figureAndText">
-            <div className="figure__orange">
-
+          <div className="someFacts_andFigures_withoutH1">
+            <div className="figureAndText">
+              <img src={images.circle_orange} alt="" />
+              <span>Totally satisfied clients</span>
+            </div>
+            <div className="figureAndText">
+              <img src={images.circle_pink} alt="" />
+              <span>Years of experience</span>
+            </div>
+            <div className="figureAndText">
+              <img src={images.circle_blue} alt="" />
+              <span>Working hours spent</span>
+            </div>
+            <div className="figureAndText">
+              <img src={images.circle_green} alt="" />
+              <span>Succeeded projects</span>
             </div>
           </div>
-
-          <div className="figureAndText">
-            <div className="figure__pink">
-
-            </div>
-          </div>
-          <div className="figureAndText">
-            <div className="figure__blue">
-
-            </div>
-          </div>
-          <div className="figureAndText">
-            <div className="figure__green">
-              
-            </div>
-          </div>
-        </div>
-
       </div>
       
     </div>

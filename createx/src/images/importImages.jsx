@@ -19,9 +19,13 @@ import profileImg from "./aboutUs/profile-image.svg"
 import leftButton from "./aboutUs/prev-btn.svg"
 import rightButton from  "./aboutUs/hover.svg"
 import transparent from "./aboutUs/transparentBack.svg"
+import circle_orange from "./aboutUs/circle_orange.svg"
+import circle_pink from "./aboutUs/circle_pink.svg"
+import circle_blue from "./aboutUs/circle_blue.svg"
+import circle_green from "./aboutUs/circle_green.svg"
 const images = {
     video, group1, safe, group, icCon, vector0, vector1, vector2, building1, building2, building3,
     clientLogo1, clientLogo2, clientLogo3, clientLogo4, clientLogo5, clientLogo6, profileImg, leftButton, rightButton,
-    transparent
+    transparent, circle_blue, circle_green, circle_orange, circle_pink
 }
 export default images
