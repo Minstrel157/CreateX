@@ -248,6 +248,30 @@ const AboutUs = () =>
               <span>Succeeded projects</span>
             </div>
           </div>
+
+          <div className="recentNews">
+            <h1>Recent news</h1>
+
+            <div className="news">
+              <div className="leftNews">
+                <div className="leftNews__item">
+                  <img src={images.leftNews__item} alt="" />
+                  <h2>How to Build Climate Change-Resilient Infrastructure</h2>
+                </div>
+              </div>
+
+              <div className="rightNews">
+                <div className="rightNews__item">
+                  <img src={images.rightNews__item1} alt="" />
+                  <h2>How Construction Can Help Itself</h2>
+                </div>
+                <div className="rightNews__item">
+                  <img src={images.rightNews__item2} alt="" />
+                  <h2>Types of Flooring Materials</h2>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       
     </div>

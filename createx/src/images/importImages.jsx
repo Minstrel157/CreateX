@@ -23,9 +23,13 @@ import circle_orange from "./aboutUs/circle_orange.svg"
 import circle_pink from "./aboutUs/circle_pink.svg"
 import circle_blue from "./aboutUs/circle_blue.svg"
 import circle_green from "./aboutUs/circle_green.svg"
+import leftNews__item from "./aboutUs/leftNews__img.svg"
+import rightNews__item1 from "./aboutUs/rightNews__item1.svg"
+import rightNews__item2 from "./aboutUs/rightNews__item2.svg"
+
 const images = {
     video, group1, safe, group, icCon, vector0, vector1, vector2, building1, building2, building3,
     clientLogo1, clientLogo2, clientLogo3, clientLogo4, clientLogo5, clientLogo6, profileImg, leftButton, rightButton,
-    transparent, circle_blue, circle_green, circle_orange, circle_pink
+    transparent, circle_blue, circle_green, circle_orange, circle_pink, leftNews__item, rightNews__item1, rightNews__item2
 }
 export default images
