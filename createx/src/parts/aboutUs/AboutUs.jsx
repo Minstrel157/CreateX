@@ -257,6 +257,17 @@ const AboutUs = () =>
                 <div className="leftNews__item">
                   <img src={images.leftNews__item} alt="" />
                   <h2>How to Build Climate Change-Resilient Infrastructure</h2>
+                  <div className="dateOfNews">
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+                      
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -264,10 +275,32 @@ const AboutUs = () =>
                 <div className="rightNews__item">
                   <img src={images.rightNews__item1} alt="" />
                   <h2>How Construction Can Help Itself</h2>
+                  <div className="dateOfNews">
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+                      
+                    </div>
+                  </div>
                 </div>
                 <div className="rightNews__item">
                   <img src={images.rightNews__item2} alt="" />
                   <h2>Types of Flooring Materials</h2>
+                  <div className="dateOfNews">
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+
+                    </div>
+                    <div className="dateOfNews__item">
+                      
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
